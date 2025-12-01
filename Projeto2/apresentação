@@ -1,0 +1,76 @@
+<html> 
+    <head>
+        <style>
+          body {
+            background-color: rgb(123, 126, 126) ;
+          }
+            .menu {
+    background: rgb(123, 126, 126);
+    padding: 10px;
+  }
+
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+
+  }
+
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 70px;
+    padding: 60px 60px;
+    border-radius: 4px;
+    transition: 0.2s;
+  }
+
+  .menu a:hover {
+    background: rgb(123, 126, 126);
+  }
+
+  .pagina{
+    background-color: rgb(123, 126, 126);
+    display: flex;           
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #333;  
+    padding: 10px;           
+    max-width:70%;
+  }
+  .page{
+     width: 60%;  
+     font-size: 50px;
+     font-family: 'Times New Roman', Times, serif;
+      color: aliceblue;
+  }
+  .foto{
+   
+     width: 300px;            
+    height: auto;
+    
+  }
+  
+        </style>
+    </head>
+    <body>
+        <nav class="menu">
+  <ul>
+    <li><a> Bio</a></li>
+    <li><a>portfolio</a></li>
+    <li><a>Contato</a></li>
+  </ul>
+</nav>
+<div class="pagina">
+  <div class="page">
+    <h1>junior dantas</h1>
+    <p> Se é difícil é porque vale a pena e um dia pode ser maravilhoso.</p>
+    </div>
+
+<img class="foto" src="C:\Users\junio\OneDrive\Imagens\juniordantas.jpg" alt="imagem">
+</div>
+    </body>
+</html>
