@@ -1,0 +1,75 @@
+<!DOCTYPE html><html lang="pt-br"> 
+    <head>
+    <meta charset="UFT-8">
+    <title>Music</title>
+    <style>
+        body{
+            background-color: rgb(27, 26, 26);
+        
+        }
+        .foto{
+            background-color: black;
+            font-size: 100px;
+            color: white;
+            text-align: center;
+            position: relative;
+            top: -65px;
+            }
+        .texto{
+            font-size: 50px;
+            font-family: "montserrat";
+            color: rgb(14, 13, 13);
+            text-align: center;
+            border: 10px groove (46, 160, 71);
+            background-color: rgb(46, 160, 71);
+            position: relative;
+            top: -150px;
+        }
+        .artista{
+            border: 10px solid (2, 160,33);
+            position: relative;
+            top: -190px;
+        }
+        .artista1{
+            border: 10px solid (2, 160,33);
+            position: relative;
+            top: -520px;
+            right: -450px;
+        }
+        .artista2{
+            border: 10px solid (2, 160,33);
+            position: relative;
+            top: -845px;
+            right: -750px;
+        }
+        .artista3{
+            border: 10px solid (2, 160,33);
+            position: relative;
+            top: -1180px;
+            right: -1050px;
+        }
+    </style>
+</head>
+<body>
+<h1 class="foto">
+    <img src="C:\Users\junio\Downloads\logospot.jpg" alt="fotodospotify" width="200">
+</h1>
+<h2 class="texto">
+    Escute musicas com o Spotify nele<br>
+     você ouve as melhores musicas
+    de todo os tipos
+</h2>
+<h3 class="artista">
+    <img src="C:\Users\junio\OneDrive\Imagens\Joao-Gomes.jpg" alt="joao" width="450">
+</h3>
+<h4 class="artista1">
+    <img src="C:\Users\junio\OneDrive\Imagens\gustavo.jpg" alt="gustavo" width="300">
+</h4>
+<h4 class="artista2">
+    <img src="C:\Users\junio\Downloads\sergiolopes.jpg" alt="gustavo" width="300">
+</h4>
+<h4 class="artista3">
+    <img src="C:\Users\junio\Downloads\fernandinho.jpg" alt="gustavo" width="450">
+</h4>
+</body>
+</html>
