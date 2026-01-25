@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+             table {
+      border: solid 10px blue;
+      width: 60%;
+    }
+    th, td {
+      background-color: white;
+      border: 1px solid blue;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    th {
+      border: inset 10px rgb(53, 67, 146);
+      background-color: rgb(53, 67, 146);
+      font-family:Arial, Helvetica, sans-serif;
+    }
+        </style>
+    </head>
+    <body>
+        <table>
+    <thead>
+      <tr>
+        <th>Contratação </th>
+        <th>Resultado da vaga</th>
+        <th>Salario</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Nome da empresa<textarea id="comentario" name="comentario" rows="1" cols="15" placeholder="Digite aqui..."></textarea></td>
+        <td>EMPRESA<h1 id="resultado"></h1></td>
+        <td><select id="lista" size="3" onchange="mostrar()">
+  <option>R$300</option>
+  <option>R$500</option>
+  <option>R$900</option>
+
+</select>
+<p>Selecionado: <h1 id="resultado10"></h1></p></td>
+      </tr>
+      <tr>
+        <td>Nome da vaga<textarea id="vagas" name="comentario" rows="1" cols="15" placeholder="Digite aqui..."></textarea></td>
+        <td>VAGA<h2 id="resultad2"></h2></td>
+        <td>
+
+</select>
+<p>Selecionado: <h1 id="resultado12"></h1></p>
+</td>
+      </tr>
+      <tr>
+        <td>Nome da localização<textarea id="local" name="comentario" rows="1" cols="15" placeholder="Digite aqui..."></textarea></td>
+        <td>LOCAL<h2 id="resultad3"></h2></td>
+        <td>
+<p>Selecionado: <h1 id="resultado8"></h1></p></td>
+      </tr>
+    </tbody>
+  </table>
+  <button onclick="retornarTexto()">Enviar</button>
+
+  
+  <script>
+  function retornarTexto() {
+    const texto = document.getElementById("comentario").value;
+    const text2 = document.getElementById("vagas").value;
+    const text3 = document.getElementById("local").value;
+    document.getElementById("resultado").innerText = texto;
+    document.getElementById("resultad2").innerText = text2;
+    document.getElementById("resultad3").innerText = text3;
+  }
+    function mostrar() {
+    const select = document.getElementById("lista");
+    const valor = select.value;
+    document.getElementById("resultado10").innerText = valor;
+    document.getElementById("resultado8").innerText = valor; 
+    document.getElementById("resultado12").innerText = valor;   
+  }
+</script>
+    </body>
+</html>
